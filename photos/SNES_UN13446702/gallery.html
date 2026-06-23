@@ -72,6 +72,9 @@
     <script src="../../assets/BeerSlider.js"></script>
     <script>
         new BeerSlider(document.querySelector('.beer-slider'));
+        document.querySelectorAll('.beer-slider').forEach(
+        el => new BeerSlider(el)
+        );
     </script>
 </body>
     
