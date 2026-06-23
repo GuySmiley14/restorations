@@ -71,10 +71,11 @@
     <!-- Bottom of body -->
     <script src="../../assets/BeerSlider.js"></script>
     <script>
-        new BeerSlider(document.querySelector('.beer-slider'));
-        document.querySelectorAll('.beer-slider').forEach(
-        el => new BeerSlider(el)
-        );
+        document.querySelectorAll('.beer-slider').forEach(el => {
+            new BeerSlider(el, {
+            start: el.dataset.beerStart || 50
+            });
+        });
     </script>
 </body>
     
