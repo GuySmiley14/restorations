@@ -8,6 +8,8 @@ body {
     max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
+	background-color: #cccace;
+	color: #a29fa9;
 }
 header{
 	text-align: center;
