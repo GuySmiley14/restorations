@@ -1,0 +1,50 @@
+html {
+	font-family: Montserrat, sans-serif;
+	line-height: 1.5;
+	color: #4a4a4a;
+	font-weight: 300;
+}
+body {
+	margin: 0;
+}
+header{
+	text-align: center;
+	overflow: hidden;
+}
+p {
+	margin: 0; }
+.container {			
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 0.75rem;
+}
+.beer-slider {
+	margin-bottom: 1.5rem;
+}
+.beer-slider[data-beer-label]:after,
+.beer-reveal[data-beer-label]:after {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.75rem;
+}
+}
+.beer-slider {
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+	.examples {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.examples .beer-slider {
+		max-width: calc(50% - 12px);
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+.examples h2 {
+	width: 100%;
+}
