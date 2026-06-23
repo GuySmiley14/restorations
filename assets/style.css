@@ -5,7 +5,9 @@ html {
 	font-weight: 300;
 }
 body {
-	margin: 0;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 header{
 	text-align: center;
@@ -18,8 +20,25 @@ p {
 	margin: 0 auto;
 	padding: 0 0.75rem;
 }
+
+.slider-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.slider-panel {
+    width: 100%;
+}
+
+.slider-panel h3 {
+    text-align: center;
+}
+
 .beer-slider {
 	margin-bottom: 1.5rem;
+    width: 100%;
 }
 .beer-slider[data-beer-label]:after,
 .beer-reveal[data-beer-label]:after {
