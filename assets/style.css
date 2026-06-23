@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     padding: 20px;*/
 	background-color: #333; /* #cccace; SNES*/
-	color: #EEE; /* #a29fa9; SNES*/
+	color: #CCC; /* #a29fa9; SNES*/
 }
 header{
 	text-align: center;
@@ -25,6 +25,10 @@ p {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0 0.75rem;
+}
+
+h2 {
+	color: #111;
 }
 
 .slider-row {
