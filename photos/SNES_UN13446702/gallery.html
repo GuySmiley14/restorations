@@ -1,0 +1,81 @@
+<head>
+    <link rel="stylesheet" href="../../assets/BeerSlider.css">
+    <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+</head>
+<body>
+
+    <h2>Outer Shell</h2>
+    <div class="slider-row">
+        <div class="slider-panel">
+        <h3>Top Shell Outside</h3>
+            <div class="beer-slider" data-beer-label="Before">
+            <img src="top_shell_outside-before(aligned).jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="top_shell_outside-after.jpg" alt="After">
+        </div></div></div>
+
+        <div class="slider-panel">
+        <h3>Bottom Shell Outside</h3>
+            <div class="beer-slider" data-beer-label="Before">
+            <img src="bottom_shell_outside-before(aligned).jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="bottom_shell_outside-after.jpg" alt="After">
+        </div></div></div>
+    </div>
+
+    <h2>Shell Inside</h2>
+    <div class="slider-row">
+        <div class="slider-panel">
+        <h3>Top Shell Inside</h3>
+            <div class="beer-slider" data-beer-label="Before">
+            <img src="top_shell_inside-before(aligned).jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="top_shell_inside-after.jpg" alt="After">
+        </div></div></div>
+    
+        <div class="slider-panel">
+        <h3>Bottom Shell Inside</h3>
+            <div class="beer-slider" data-beer-label="Before">
+            <img src="bottom_shell_inside-before(aligned).jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="bottom_shell_inside-after2.jpg" alt="After">
+        </div></div></div>
+    </div>
+    
+    <h2>Mainboard</h2>
+    <div class="slider-row">
+        <div class="slider-panel">
+        <h3>Mainboard Top</h3>
+            <div class="beer-slider" data-beer-label="Before" data-beer-start="30">
+            <img src="PCBA_top-before(aligned).jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="PCBA_top-after.jpg" alt="After">
+        </div></div></div>
+    
+        <div class="slider-panel">
+        <h3>Mainboard Bottom</h3>
+            <div class="beer-slider" data-beer-label="Before" data-beer-start="70">
+            <img src="PCBA_bottom-before.jpg" alt="Before">
+        
+            <div class="beer-reveal" data-beer-label="After">
+            <img src="PCBA_bottom-after(aligned).jpg" alt="After">
+        </div></div></div>
+    </div>
+
+    <!-- Bottom of body -->
+    <script src="../../assets/BeerSlider.js"></script>
+    <script>
+        document.querySelectorAll('.beer-slider').forEach(el => {
+            new BeerSlider(el, {
+            start: el.dataset.beerStart || 50
+            });
+        });
+    </script>
+</body>
+    
