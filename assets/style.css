@@ -46,6 +46,10 @@ h2 {
     border-bottom: 3px solid #6e5aa6;
 }*/
 
+h3 {
+	color: #666;
+}
+
 .slider-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
