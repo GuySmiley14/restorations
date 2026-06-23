@@ -8,8 +8,8 @@ body {
     max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
-	background-color: #cccace;
-	color: #a29fa9;
+	background-color: #333; /* #cccace; SNES*/
+	color: #EEE; /* #a29fa9; SNES*/
 }
 header{
 	text-align: center;
@@ -46,6 +46,7 @@ p {
 .beer-slider {
 	margin-bottom: 1.5rem;
     width: 100%;
+	border: 1px solid #333;
 }
 .beer-slider[data-beer-label]:after,
 .beer-reveal[data-beer-label]:after {
