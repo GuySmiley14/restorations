@@ -27,9 +27,9 @@ p {
 	padding: 0 0.75rem;
 }
 
-h2 {
+/*h2 {
 	background-color: #111;
-}
+}*/
 
 .slider-row {
     display: grid;
@@ -54,7 +54,7 @@ h2 {
 .beer-slider {
 	margin-bottom: 1.5rem;
     width: 100%;
-	color: #999;
+	color: #666;
 	/*border: 1px solid #333;*/
 }
 .beer-slider[data-beer-label]:after,
