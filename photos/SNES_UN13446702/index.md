@@ -21,5 +21,5 @@ kijiji find in "grubby, but working" condition - fully disassembled, cleaned, an
 | ![](bottom_shell_inside-before(aligned).jpg) | ![](bottom_shell_inside-after2.jpg) |
 
 ## Full Gallery
-<i>Interactive Before/After Gallery - Coming Soon</i>
-<!-- [Interactive Before/After Gallery](gallery.html) -->
+<!-- <i>Interactive Before/After Gallery - Coming Soon</i> -->
+[Interactive Before/After Gallery](gallery.html)
