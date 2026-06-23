@@ -1,14 +1,21 @@
-<link rel="stylesheet" href="../../assets/BeerSlider.css">
-<script src="../../assets/BeerSlider.js"></script>
+<head>
+    <link rel="stylesheet" href="../../assets/BeerSlider.css">
+    
+</head>
+<body>
 
-<script>
-new BeerSlider(document.querySelector('.beer-slider'));
-</script>
-
-<div class="beer-slider" data-beer-label="Before">
-    <img src="top_shell_outside-before(aligned).jpg" alt="Before">
-
-    <div class="beer-reveal" data-beer-label="After">
-        <img src="top_shell_outside-after.jpg" alt="After">
+    <div class="beer-slider" data-beer-label="Before">
+        <img src="top_shell_outside-before(aligned).jpg" alt="Before">
+    
+        <div class="beer-reveal" data-beer-label="After">
+            <img src="top_shell_outside-after.jpg" alt="After">
+        </div>
     </div>
-</div>
+
+    <!-- Bottom of body -->
+    <script src="../../assets/BeerSlider.js"></script>
+    <script>
+        new BeerSlider(document.querySelector('.beer-slider'));
+    </script>
+</body>
+    
