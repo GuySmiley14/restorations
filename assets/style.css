@@ -5,9 +5,13 @@ html {
 	font-weight: 300;
 }
 body {
-    max-width: 1800px;
+    max-width: 1600px;
+    margin: auto;
+    padding: 30px;
+	
+	/*max-width: 1800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px;*/
 	background-color: #333; /* #cccace; SNES*/
 	color: #EEE; /* #a29fa9; SNES*/
 }
