@@ -50,7 +50,8 @@ p {
 .beer-slider {
 	margin-bottom: 1.5rem;
     width: 100%;
-	border: 1px solid #333;
+	color: #999;
+	/*border: 1px solid #333;*/
 }
 .beer-slider[data-beer-label]:after,
 .beer-reveal[data-beer-label]:after {
